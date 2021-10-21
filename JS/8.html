@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Interactive JS </title>
+</head>
+<body>
+
+	<div class="Container">
+		Interactive alert,confirm and prompt.
+	</div>
+
+
+</body>
+
+<script>
+	console.log(`hello`);
+
+	// Alert in JS.
+	// alert(`A message`);  Its return value is Undefined.
+
+
+	// When we have to ask question to a User.
+	// let name=prompt(`What's your name?`,``);
+	// console.log(name);
+
+	// confirm is used to give warning to users or to double check.
+	let delete_post=confirm(`Do you really want to delete this Post?`);
+	if(delete_post){
+		console.log(`Your post have been deleted successfully`);
+	}else{
+		console.log(`Your post have not been deleted`);
+	}
+	console.log(delete_post);
+	
+</script>
+
+
+</html>

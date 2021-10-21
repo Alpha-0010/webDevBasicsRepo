@@ -1,0 +1,13 @@
+State in a react page is Read only and suppose we wish to use a state of one
+react route or page in another page then we use the concept of Redux. 
+Changes to the states are made by pure functions only also known as reducers.
+
+When and Why to use Redux?
+--> Simple tool that makes our application more efficient.
+--> In react each component has its own state so if we wish to share state
+of one component with another we can achieve that using Redux.
+
+Benefits of using Redux:
+---> Redux is predictable.
+---> Easy to maintain.
+---> Helps in Persistence of Data.

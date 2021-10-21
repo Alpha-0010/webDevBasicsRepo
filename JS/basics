@@ -1,0 +1,19 @@
+DOM refers to a page.
+JS can be used in client as well as server.
+
+Responsibility of in-Browser JS:
+1) Add new HTML element and change existing element from DOM.
+2) React to events[response from server,keypress,Mouse Movement]. 
+3) Ajax requests.
+4) Get and Set Cookies & use localStorage.[Storage where we can store data]
+
+What can't in-Browser JS do:
+1) Read/Write to & from Computer Hard disk.
+2) It follows Same Origin Policy: Cross websites information cannot be extracted.
+ but it can access permitted resources.
+
+
+What makes JavaScript Unique:
+1) HTML/CSS Support.
+2) Provides us with simple API's like fetch,..
+3) Supports Major browsers. 
